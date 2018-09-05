@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "802552398397",
+    "firebase_url": "https://alc-oneweek-journal-app-aliu.firebaseio.com",
+    "project_id": "alc-oneweek-journal-app-aliu",
+    "storage_bucket": "alc-oneweek-journal-app-aliu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802552398397:android:e67030f52b1c0bfb",
+        "android_client_info": {
+          "package_name": "gbeilaaliuwahab.journalappp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802552398397-7skte3tatr35rnknsm1m47fok6uv06kj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gbeilaaliuwahab.journalappp",
+            "certificate_hash": "3a3e20789ba95475c162332c738f530d6e561e6c"
+          }
+        },
+        {
+          "client_id": "802552398397-gj0r0kgmv3fta57fro3tamm5jjtnabhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVSCg7RETkpjRU-jkr73AtRdLqK3HTRuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802552398397-gj0r0kgmv3fta57fro3tamm5jjtnabhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

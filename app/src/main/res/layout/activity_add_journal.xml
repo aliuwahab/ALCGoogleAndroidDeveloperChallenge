@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddJournalActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<EditText-->
+            <!--android:id="@+id/edit_text_journal_title"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <EditText
+            android:id="@+id/edit_text_journal_title"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:hint="@string/journal_compose_hint"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:maxLines="4" />
+
+        <!--<EditText-->
+            <!--android:id="@+id/password"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="@string/prompt_password"-->
+            <!--android:imeActionId="6"-->
+            <!--android:imeActionLabel="@string/action_sign_in_short"-->
+            <!--android:imeOptions="actionUnspecified"-->
+            <!--android:inputType="textPassword"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true" />-->
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/button_create_journal"
+        android:text="@string/add_new_journal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

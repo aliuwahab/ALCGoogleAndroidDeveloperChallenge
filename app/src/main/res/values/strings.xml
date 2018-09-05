@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Journal Appp</string>
+    <string name="create_journal_button_text">Create Journal</string>
+    <string name="update_journal_button_text">Update Journal</string>
+    <string name="journal_title_edit_text_placeholder">Enter Journal Title Here</string>
+    <string name="journal_description_edit_text_placeholder">Enter Journal Description Here</string>
+    <string name="sample_journal_title">This is just a sample title</string>
+    <string name="sample_journal_description">This is just a sample journal description</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="splash_screen">Welcome to Journal App</string>
+    <string name="add_new_journal">CREATE JOURNAL</string>
+    <string name="journal_compose_hint">Describe your Journal as concise as possible</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
